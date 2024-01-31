@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link href="style.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/ecd8e9f3f7.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -19,32 +23,32 @@
     </header>
     <main>
       <h1>Contact Me</h1>
-      <form>
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" />
-        <label for="email">Email</label>
-        <input for="email" name="email" id="email" />
-        <br />
-        <label for="message">Write message:</label>
-        <textarea id="message" name="message" row="10" cols="20">
+      <form class="contact-form">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input for="email" name="email" id="email" />
+        </div>
+        <div>
+          <label for="message">Write message:</label>
+          <textarea id="message" name="message" row="10" cols="20">
 Write message here...</textarea
-        >
+          >
+        </div>
       </form>
-      <a href="mailto:jeuyoquea@gmail.com">Email</a>
+
+      <a href="mailto:jeuyoquea@gmail.com"
+        ><i class="fa-regular fa-envelope"></i
+      ></a>
       <a href="https://www.linkedin.com/in/jasmine-euyoque/"
-        ><img
-          src="Image/Linkedin-icon.png"
-          alt="clickable white and blue linkedin logo reroutes to personal linkedin"
-          width="80px"
-          height="70px"
-      /></a>
+        ><i class="fa-brands fa-linkedin"></i>
+      </a>
       <a href="https://github.com/jasmineeuy"
-        ><img
-          src="Image/github-mark.png"
-          alt="Github black and white logo image which reroutes to github account"
-          width="80"
-          height="80"
-      /></a>
+        ><i class="fa-brands fa-github"></i
+      ></a>
     </main>
   </body>
 </html>

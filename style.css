@@ -81,3 +81,24 @@ a:visited {
   padding: 0.5em 1em;
   margin-top: 1em;
 }
+/*****Contact*****/
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.contact-form div {
+  display: flex;
+  margin: 1em;
+}
+.contact-form div label {
+  flex-basis: 20%;
+  flex-grow: 1;
+}
+.contact-form div input,
+.contact-form div textarea {
+  flex-grow: 2;
+  flex-basis: 80%;
+  border-radius: 4px;
+  padding: 0.8em 1em;
+}
