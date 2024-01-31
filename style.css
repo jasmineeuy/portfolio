@@ -12,6 +12,7 @@ body {
   display: flex;
   list-style-type: none;
   justify-content: space-around;
+  font-weight: bold;
 }
 .nav-info ul li a,
 a:visited {
@@ -30,20 +31,21 @@ a:visited {
   text-align: center;
   border: 1px solid wheat;
   background-color: white;
-  box-shadow: 10px 4px 4px rgb(249, 244, 235);
   border-radius: 4px;
 }
 
 .main-about {
   flex-direction: column;
   align-items: center;
-  border: 1px solid wheat;
   background-color: white;
-  box-shadow: 10px 4px 4px rgb(249, 244, 235);
   border-radius: 4px;
 }
 
 /*******About*********/
+.main-about {
+  margin: 4% 4%;
+  padding: 1em;
+}
 .main-about ul li {
   list-style-type: none;
   width: 10%;
@@ -59,4 +61,23 @@ a:visited {
 }
 .js-li {
   background-color: navajowhite;
+}
+
+/****Project****/
+.project-main h1 {
+  text-align: center;
+}
+.project-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+}
+.project-list div {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 4px;
+  width: 50%;
+  padding: 0.5em 1em;
+  margin-top: 1em;
 }
